@@ -1,0 +1,21 @@
+#movingBox{
+background-color:#B23E43 ;
+border: black solid 3px;
+width: 430px;
+height: 430px;
+position: relative;
+right: -500px;
+  }
+button{
+  color: black;
+  background-color: lightskyblue;
+  height: 30px;
+
+}
+button:hover{
+    background-color:#F2E3E3;
+    color:#ffffff
+  }
+  
+  
+   

@@ -1,0 +1,44 @@
+/*I honestly cant explain what im doing but im doing it #girlboss  */
+*{
+ box-sizing: border-box;
+}
+body{
+  background-color:#F499BC
+;
+  color:#250709;
+}
+/* Style of the header*/
+
+  /* style of the nagiagtion bar */
+  .topnav{
+    background-color:#94D0D8;
+    overflow: hidden;
+  }
+  /* style the links inside the navigation bar*/
+  .topnav a{
+    color:#3DC9D2 ;
+    float: left;
+    display: block;
+    text-algin: center;
+    padding: 14px 16px;
+  }
+  .topnav a:hover{
+    background-color:#4C2096;
+    color:#000000
+  }
+  .header{
+    background-color:#8BAEFF;
+    padding: 20px;
+    text-align: center;
+    color:#E41581;
+  }
+  /*Creates 3 equal colums that float next to each other*/
+  .column{
+    float:left;
+    width:33.33%;
+    padding:15px;
+    background-color:#7123B5;
+    border: 2px  outset #9776CE;
+   
+  }
+

@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 10</title>
+    <link rel="stylesheet"href="../../mainPortfolio.css">
+    <style>
+      /*the work as universal selector for CSS*/
+      *{
+        box-sizing:boarder-box;
+      }
+      /*A CSS selector selects the HTML element(s) you want to style . Simple selectors*/
+      /* any html tag can be a selector.*/
+      body{
+        background-repeat:no-repeat;
+        background-image:linear-gradient(to left,white,black);
+        background-image:url("https://media.npr.org/assets/img/2021/08/11/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761-s800-c85.webp");
+       background-size:100%;
+       background-image:comic-gradiant(blue,purple,pink);
+    
+      }
+      /* the class selector html elements with a specific class attruibute. To select elements with a specific class, write a period (.) character, followed by the class name */
+      .header{
+        background-image: repeating-radial-gradient(DarkGreen 15%,black 45%,DeepPink 45%);
+        text-aligin: center;
+        padding:20px;
+        margin:5px;
+        color:DarkCyan;
+      }
+        /* ID selector*/
+        h1{
+          color:LightSeaGreen;
+        }
+        /* selector*/
+
+      #lname{
+        color:red;
+      }
+      /* the id selector uses the id attribute of a html  element to select a specific element. The id of an elemnent is unique within a page,so the id selector is used to select one unique element.
+      To select an elemetr with a specific id, write a hash(#) charcater
+    , followed by the id of the element*/
+        
+        #deBox h1{
+          color:purple;
+        }
+      }
+      /* The grouping selector selects all the htmls elements with the same style definitions.
+      It will be better to group selectors, to minimize the code.
+      To group selectors, separate each selector with a comma
+      CSS Combinatiors 
+      A combinator is something that explains the relationship between teh selectors.
+      A CSS selectors can contain more than one simple selectors.
+      Between the simple selectors, we can include a combinator.
+      There are four different combinations in CSS
+      descedant selector (space)
+      child selector (>)
+      adjacent sibling selector (+)
+      general sibling selector(~) */
+      .header h1 {
+        color:pink;
+      }
+      /* a pseudo-class is used to define a special state of an element. For example, it cna  be used to: style an element when a user mouses over it style visted and unvisted link defferently  style an element when it get focus*/
+      a:link {
+        color:Teal;
+      }
+      a:visited{
+        color:pink;
+      }
+      a[target]{
+        background-color:coral;
+      }
+      </style>
+  </head>
+  <body>
+       <div class="topnav">
+<a href="../Lab1/Lab1.html">Lab # 1 </a>
+<a href="../Lab2/Lab2.html">Lab # 2</a>
+<a href="../Lab3/Lab3.html"> Lab # 3</a>
+<a href="../Lab4/Lab4.html"> Lab # 4</a>
+<a href="../Lab5/Lab5.html"> Lab # 5</a>
+<a href="../Lab6/Lab6.html"> Lab # 6</a>
+<a href="../Lab7/Lab7.html"> Lab # 7</a>
+<a href="../Lab8/Lab8.html"> Lab # 8</a>
+<a href="../Lab9/Lab9.html"> Lab # 9</a>
+<a href="../Lab10/Lab10.html"> Lab # 10</a>
+<a href="../Lab11/Lab11.html"> Lab # 11</a>
+<a href="../Lab12/Lab12.html"> Lab # 12</a>
+<a href="../Lab13/Lab13.html"> Lab # 13</a>
+<a href="../Lab14/Lab14.html"> Lab # 14</a>
+<a href="../Lab15/Lab15.html"> Lab # 15</a>
+<a href="../Lab16/Lab16.html"> Lab # 16</a>
+<a href="../Lab17/Lab17.html"> Lab # 17</a>
+<a href="../Lab18/Lab18.html"> Lab # 18</a>
+<a href="../Lab19/Lab19.html"> Lab # 19</a>
+<a href="../Lab20/Lab20.html"> Lab # 20</a>
+<a href="../Project1/Project1.html">Movie Project</a>
+</div>
+<div class="header">
+<h1>Thomas A. Edison Highschool </h1>
+<h2>Web Design Academy  </h2>
+  <h3>Lab 10 Internal</h3>
+    <h4> Kevin Castillo</h4>
+</div>
+<div class="deBox">
+  <center>
+  <h1>Kevin</h1>
+  <h1>Castillo</h1>
+  <h1>2/9/22</h1>
+  </center>
+</div>
+  </body>
+  </html>
