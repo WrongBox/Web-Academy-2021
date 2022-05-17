@@ -11,34 +11,34 @@ body{
 
   /* style of the nagiagtion bar */
   .topnav{
-    background-color:#94D0D8;
+    background-color:#b896d9;
     overflow: hidden;
   }
   /* style the links inside the navigation bar*/
   .topnav a{
-    color:#3DC9D2 ;
+    color:#643dd1 ;
     float: left;
     display: block;
     text-algin: center;
     padding: 14px 16px;
   }
   .topnav a:hover{
-    background-color:#4C2096;
-    color:#000000
+    background-color:#8fceff;
+    color:#476cff
   }
   .header{
-    background-color:#8BAEFF;
+    background-color:#c48aff;
     padding: 20px;
     text-align: center;
-    color:#E41581;
+    color:#ff75b8;
   }
   /*Creates 3 equal colums that float next to each other*/
   .column{
     float:left;
     width:33.33%;
     padding:15px;
-    background-color:#7123B5;
-    border: 2px  outset #9776CE;
+    background-color:#c2f0ff;
+    border: 2px  outset #70cfff;
    
   }
 
